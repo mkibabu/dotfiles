@@ -1,0 +1,14 @@
+# virtualenvwrapper variables
+# what version of python to use
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+PATH="$PATH:$VIRTUALENVWRAPPER_PYTHON"
+
+# where to store our virtual projects
+export WORKON_HOME=$HOME/.virtualenvs
+
+# where projects will reside
+export PROJECT_HOME=$HOME/Projects-Active
+
+# where is virtualenvwrapper.sh
+source $HOME/.local/bin/virtualenvwrapper.sh
+
